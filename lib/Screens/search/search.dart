@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:job_finder_app/Screens/search/widgets/search_input.dart';
+import 'package:job_finder_app/Screens/search/widgets/search_list.dart';
 import 'package:job_finder_app/Screens/search/widgets/search_options.dart';
 
 import 'widgets/search_app_bar.dart';
@@ -28,7 +29,8 @@ class SearchPage extends StatelessWidget {
             children: [
               SearchAppBar(),
               SearchInput(),
-              SearchOptions()
+              SearchOptions(),
+              Expanded(child: SearchList()),
             ],
           )
         ],

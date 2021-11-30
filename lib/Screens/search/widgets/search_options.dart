@@ -37,7 +37,7 @@ class _SearchOptionsState extends State<SearchOptions> {
                           : Colors.white,
                       borderRadius: BorderRadius.circular(20),
                       border:
-                          Border.all(color: Theme.of(context).primaryColor)),
+                          Border.all(color: Theme.of(context).primaryColor.withOpacity(0.5))),
                   child: Row(
                     children: [
                       Text(
