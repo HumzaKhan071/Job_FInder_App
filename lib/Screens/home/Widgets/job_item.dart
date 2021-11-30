@@ -51,8 +51,7 @@ class JobItem extends StatelessWidget {
               ),
               Icon(
                 job.isMark ? Icons.bookmark : Icons.bookmark_outlined,
-                color:
-                    job.isMark ? Theme.of(context).accentColor : Colors.black,
+                color: job.isMark ? Theme.of(context).accentColor : Colors.grey,
               )
             ],
           ),
