@@ -36,8 +36,8 @@ class SearchInput extends StatelessWidget {
             padding: EdgeInsets.all(13),
             decoration: BoxDecoration(
                 color: Theme.of(context).accentColor,
-                borderRadius: BorderRadius.circular(20)),
-                child: Icon(),
+                borderRadius: BorderRadius.circular(25)),
+            child: Image.asset("assets/icons/filter.png"),
           ),
         ],
       ),
